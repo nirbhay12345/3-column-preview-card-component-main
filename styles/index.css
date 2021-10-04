@@ -1,0 +1,143 @@
+@media only screen and (min-width: 375px) {
+    body {
+        width: 375px;
+        height: 780px;
+        margin: 0em;
+    }
+
+    #main {
+        width: 375px;
+        height: 1458px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+        overflow: visible;
+    }
+
+    .previewCard {
+            box-sizing: border-box;
+            flex-shrink: 0;
+            width: 323px;
+            height: 440px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 45px;
+            overflow: visible;
+    }
+
+    #card1 {
+        background-color: #e38826;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #card2 {
+        background-color: #006970;
+    }
+
+    #card3 {
+        background-color: #004241;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .svg {
+        flex-shrink: 0;
+        width: 65px;
+        height: 48px;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #svg1{
+        background-image: url(../images/icon-sedans.svg);
+    }
+    #svg2{
+        background-image: url(../images/icon-suvs.svg);
+    }
+    #svg3{
+        background-image: url(../images/icon-luxury.svg);
+    }
+
+    .title {
+        width: auto; /* 99px */
+        height: auto; /* 48px */
+        flex-shrink: 0;
+        overflow: visible;
+        white-space: pre;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Big Shoulders Display", serif;
+        color: #f2f2f2;
+        font-size: 40px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+    }
+
+    .text {
+        overflow: hidden;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        font-weight: 200;
+        font-style: normal;
+        font-family: "Lexend Deca", serif;
+        color: #f2f2f2;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 1.7;
+    }
+
+    #t1 {
+        flex-shrink: 0;
+        width: 213px;
+        height: auto; 
+    }
+
+    #t2 {
+        height: auto; 
+        flex-shrink: 0;
+        width: 230px;
+    }
+
+    #t3 {
+        height: auto; 
+        flex-shrink: 0;
+        width: 220px;
+    }
+    .button {
+        width: 147px;
+        height: 50px;
+        background-color: #ffffff;
+        overflow: hidden;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonText {
+        width: auto; /* 83px */
+        height: auto; /* 25px */
+        overflow: visible;
+        white-space: pre;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Lexend Deca", serif;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 1.7;
+    }
+    .bt1 {
+        color: #e38826;
+    }
+    .bt2 {
+        color: #006970;
+    }
+    .bt3 {
+        color: #004241;
+    }
+}
