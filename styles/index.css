@@ -1,12 +1,9 @@
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 380px) {
     body {
-        width: 375px;
-        height: 780px;
         margin: 0em;
     }
 
     #main {
-        width: 375px;
         height: 1458px;
         display: flex;
         flex-direction: column;
@@ -141,3 +138,9 @@
         color: #004241;
     }
 }
+
+@media only screen and (min-width: 375px) {
+    body {
+        background-color: #006970;
+    }
+} 
