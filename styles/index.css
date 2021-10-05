@@ -1,7 +1,9 @@
-@media only screen and (max-width: 380px) {
-    body {
-        margin: 0em;
-    }
+body {
+    margin: 0em;
+}
+
+@media only screen and (max-width: 768px) {
+
 
     #main {
         height: 1458px;
@@ -139,8 +141,146 @@
     }
 }
 
-@media only screen and (min-width: 375px) {
-    body {
+@media only screen and (min-width: 768px) {
+    /* write the desktop design here */
+
+    #main {
+        box-sizing: border-box;
+        width: 1440px;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 190px 205px 148px 205px;
+        background-color: #f2f2f2;
+        overflow: visible;
+    }
+
+    .previewCard {
+        box-sizing: border-box;
+        flex-shrink: 0;
+        width: 345px;
+        height: 564px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 50px;
+        overflow: visible;
+    }
+
+    #card1 {
+        border-radius: 10px 0px 0px 10px;
+        background-color: #e38826;
+    }
+
+    #card2 {
         background-color: #006970;
     }
+
+    #card3 {
+        border-radius: 0px 10px 10px 0px;
+        background-color: #004241;
+    }
+
+    .svg {
+        flex-shrink: 0;
+        width: 65px;
+        height: 48px;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #svg1{
+        background-image: url(../images/icon-sedans.svg);
+    }
+    #svg2{
+        background-image: url(../images/icon-suvs.svg);
+    }
+    #svg3{
+        background-image: url(../images/icon-luxury.svg);
+    }
+
+    .title {
+        width: auto; /* 116px */
+        height: auto; /* 55px */
+        flex-shrink: 0;
+        overflow: visible;
+        white-space: pre;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Big Shoulders Display", serif;
+        color: #f2f2f2;
+        font-size: 47px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+    }
+
+    .text {
+        flex-shrink: 0;
+        width: 234px;
+        height: 198px;
+        overflow: hidden;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Lexend Deca", serif;
+        color: #f2f2f2;
+        letter-spacing: 0px;
+        line-height: 1.62;
+    }
+
+    #t1 {
+        font-size: 17.7px;
+    }
+
+    #t2 {
+        font-size: 17.6px;
+    }
+
+    #t3 {
+        font-size: 17.5px;
+    }
+
+    .button {
+        width: 165px;
+        height: 55px;
+        background-color: #ffffff;
+        overflow: hidden;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonText {
+        width: auto; /* 83px */
+        height: auto; /* 25px */
+        overflow: visible;
+        white-space: pre;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Lexend Deca", serif;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 1.7;
+    }
+
+    #bt1 {
+        color: #e38826;
+    }
+
+    #bt2 {
+        color: #006970;
+    }
+
+    #bt3 {
+        color: #004241;
+    }
+
 } 
